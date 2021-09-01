@@ -34,14 +34,15 @@
 
             $alunos = [$aluno1,$aluno2,$aluno3,$aluno4,$aluno5, $aluno6];
 
-            $turma = new Turma('Matemática');
+            $turma = new Turma('Artes');
 
             for($i = 0; $i < count($alunos); $i++){
                 $turma->adicionarAluno($alunos[$i]);
             }
         ?>
             <h1>Controle de Notas de Turma</h1>
-            <h1>Notas dos Alunos da turma de <?=$turma->getNome();?></h1></br></br>
+            <h1>Notas dos Alunos da turma de <?=$turma->getNome();?></h1>
+            </br></br>
 
         </section>
 
