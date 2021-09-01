@@ -9,11 +9,10 @@ th,td{
 th, tr:hover{
     background-color: rgb(168, 218, 213);
 }
-.tabela{
+table{
     text-align: center;
     font-family : "Times New Roman", Times, serif;
     width: 50%;
-
     background-color: rgb(240,248,255);
     margin: auto;
 }

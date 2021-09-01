@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <section class="a">
+        <section>
          <?php
             require_once('./Model/Aluno.php');
             require_once('./Model/Turma.php');
@@ -45,14 +45,15 @@
 
         </section>
 
-        <section class="b">
+        <section>
             <?php
                 echo $turma->mediaTurma();
 
             ?>
         </section>
+        <hr>
         <footer>
-            <h4>Desenvolvido por Luis Eduardo</h4>
+            <h4>Desenvolvido por <a href="https://github.com/LuisEduardoReif/ATIVI1-back-end2">Luis Eduardo da silva Reif</a></h4>
         </footer>
     </main>
 </body>
