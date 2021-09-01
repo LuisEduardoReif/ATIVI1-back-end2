@@ -51,9 +51,10 @@
 
             ?>
         </section>
-        <hr>
+
         <footer>
-            <h4>Desenvolvido por <a href="https://github.com/LuisEduardoReif/ATIVI1-back-end2" target="_blank" >Luis Eduardo da silva Reif</a></h4>
+
+            <h4 class="rodape">Desenvolvido por <a href="https://github.com/LuisEduardoReif/ATIVI1-back-end2" target="_blank" >Luis Eduardo da silva Reif</a></h4>
         </footer>
     </main>
 </body>
