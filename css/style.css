@@ -1,0 +1,30 @@
+html{
+    font-family : "Times New Roman", Times, serif;
+}
+th,td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+th, tr:hover{
+    background-color: rgb(168, 218, 213);
+}
+.tabela{
+    text-align: center;
+    font-family : "Times New Roman", Times, serif;
+    width: 50%;
+
+    background-color: rgb(240,248,255);
+    margin: auto;
+}
+
+H1,h3,h4,h2{
+    text-align: center;
+}
+h1 {
+    background-color: #e7e7c5;
+    border:1px solid rgb(168, 218, 213);
+    padding: 5px;
+}
+
+
